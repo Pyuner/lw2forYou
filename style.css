@@ -3,9 +3,10 @@ form {
     padding: 0 auto;
     border: 2px solid black;
     width: 400px;    
+    margin-bottom: 50px;;;
 }
 
-input {
+.first input {
     margin-left: 20%;
     padding: 5px;
 }
@@ -13,4 +14,91 @@ input {
 #button {
     margin-left: 40%;
     margin-bottom: 5px; 
+}
+
+.Next-job {
+    display: flex;
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+iframe {
+    display: none;
+}
+
+.Next-job iframe {
+    display: block;
+}
+
+.Next-job .buttn {
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.Next-job .buttn input {
+    display: block;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 0;
+}
+
+.Next-job .buttn input:hover {
+    background: black;
+    color: #fff;
+}
+
+.Next-job-comments {
+    display: block;
+    width: 790px;
+}
+
+.Next-job-comments.active {
+    display: block;
+}
+
+.comment {
+    background: #eaeaea;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: Calibri;
+}
+
+.comment-name {
+    font-weight: 700;
+}
+
+.form-comment {
+    width: 786px;
+    margin-top: 20px;
+}
+
+.form-comment input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+.comment-block {
+    width: 770px;
+    height: 100px;
+    padding: 10px;
+}
+textarea{
+    resize: none;
+}
+.form-comment button {
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+
+.form-comment button:hover {
+    background: #000;
+    color: #fff;
 }
